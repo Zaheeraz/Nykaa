@@ -36,6 +36,7 @@ public class NykaaRunner extends BaseClass {
 	}
 
 	public static void selectProduct() {
+		
 		WebElement prd_heading = driver
 				.findElement(By.xpath("//ul[@class='MegaDropdownHeading']//li//a[text()='mom & baby']"));
 		Actions action = new Actions(driver);
