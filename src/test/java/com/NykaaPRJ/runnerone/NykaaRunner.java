@@ -31,6 +31,8 @@ public class NykaaRunner extends BaseClass {
 	public static void browserLaunch() {
 		browserlaunch("chrome");
 		urlLaunch("https://www.nykaa.com/");
+		
+		
 	}
 
 	public static void selectProduct() {
